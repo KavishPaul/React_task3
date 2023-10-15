@@ -1,0 +1,29 @@
+*{
+  padding: 20px;
+}
+
+.color-picker {
+  text-align: center;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.color-swatch {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.color-swatch:hover {
+  border: 2px solid #333;
+}
+
+button:hover{
+  cursor: pointer;
+}
